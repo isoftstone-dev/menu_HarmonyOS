@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:alert_background"
+        ohos:left_margin="10vp"
+        ohos:orientation="vertical"
+        ohos:right_margin="10vp"
+        >
+
+        <Text
+            ohos:id="$+id:two_input_dialog_title"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:padding="20vp"
+            ohos:text="登录"
+            ohos:text_color="black"
+            ohos:text_size="30vp"
+            ohos:layout_alignment="center"/>
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:orientation="vertical"
+            ohos:weight="1"
+            >
+
+            <TextField
+                ohos:id="$+id:two_input_dialog_text_field_one"
+                ohos:height="50vp"
+                ohos:width="match_parent"
+                ohos:hint="请输入用户名"
+                ohos:left_margin="20vp"
+                ohos:right_margin="20vp"
+                ohos:bottom_margin="20vp"
+                ohos:hint_color="#666666"
+                ohos:text_alignment="vertical_center"
+                ohos:text_color="#333333"
+                ohos:text_size="20vp"
+                ohos:left_padding="10vp"
+                ohos:right_padding="10vp"
+                ohos:background_element="$graphic:two_input_background"
+
+
+                />
+
+            <TextField
+                ohos:id="$+id:two_input_dialog_text_field_two"
+                ohos:height="50vp"
+                ohos:width="match_parent"
+                ohos:hint="请输入密码"
+                ohos:left_margin="20vp"
+                ohos:right_margin="20vp"
+                ohos:hint_color="#666666"
+                ohos:text_alignment="vertical_center"
+                ohos:text_color="#333333"
+                ohos:text_size="20vp"
+                ohos:left_padding="10vp"
+                ohos:right_padding="10vp"
+                ohos:background_element="$graphic:two_input_background"
+
+
+                />
+        </DirectionalLayout>
+
+        <Component
+            ohos:height="0.5vp"
+            ohos:width="match_parent"
+            ohos:background_element="#666666"
+            ohos:top_margin="20vp"/>
+
+        <DirectionalLayout
+            ohos:height="60vp"
+            ohos:width="match_parent"
+            ohos:alignment="bottom|right"
+            ohos:orientation="horizontal"
+            ohos:layout_alignment="vertical_center"
+            >
+            <Button
+                ohos:id="$+id:two_input_dialog_ok"
+                ohos:height="match_parent"
+                ohos:width="match_content"
+                ohos:text="登录"
+                ohos:text_color="#00BFFF"
+                ohos:text_size="20vp"
+                ohos:weight="1"/>
+            <Component
+                ohos:height="match_parent"
+                ohos:width="0.5vp"
+                ohos:background_element="gray"/>
+            <Button
+                ohos:id="$+id:two_input_dialog_cancle"
+                ohos:height="match_parent"
+                ohos:width="match_content"
+                ohos:text="取消"
+                ohos:text_color="#00BFFF"
+                ohos:text_size="20vp"
+                ohos:weight="1"/>
+        </DirectionalLayout>
+
+
+    </DirectionalLayout>
+
+</DirectionalLayout>

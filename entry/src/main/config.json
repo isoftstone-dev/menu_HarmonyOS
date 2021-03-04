@@ -1,0 +1,81 @@
+{
+  "app": {
+    "bundleName": "com.istone.harmony",
+    "vendor": "istone",
+    "version": {
+      "code": 1,
+      "name": "1.0"
+    },
+    "apiVersion": {
+      "compatible": 4,
+      "target": 4,
+      "releaseType": "Beta1"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "com.istone.harmony",
+    "name": ".MyApplication",
+    "deviceType": [
+      "phone"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry"
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "orientation": "unspecified",
+        "name": "com.istone.harmony.MainAbility",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "DialogApplication",
+        "type": "page",
+        "launchType": "standard"
+      }
+    ],
+    "reqPermissions": [
+      {
+        "reason": "",
+        "name": "ohos.permission.WRITE_SCREEN_SAVER"
+      },
+      {
+        "reason": "",
+        "name": "ohos.permission.WRITE_SETTINGS"
+      },
+      {
+        "reason": "",
+        "name": "ohos.permission.MODIFY_AUDIO_SETTINGS"
+      },
+      {
+        "reason": "",
+        "name": "ohos.permission.MODIFY_SETTINGS"
+      },
+      {
+        "reason": "",
+        "name": "ohos.permission.MANAGE_SECURE_SETTINGS"
+      },
+      {
+        "reason": "",
+        "name": "ohos.permission.WRITE_USER_STORAGE"
+      },
+      {
+        "reason": "",
+        "name": "android.permission.WRITE_SETTINGS"
+      }
+    ]
+  }
+}
+
+

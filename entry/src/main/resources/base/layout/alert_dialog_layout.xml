@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+    ohos:orientation="vertical"
+    >
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:alert_background"
+        ohos:left_margin="10vp"
+        ohos:orientation="vertical"
+        ohos:right_margin="10vp"
+        >
+
+        <Text
+            ohos:id="$+id:alert_dialog_title"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:padding="20vp"
+            ohos:text="Title"
+            ohos:text_color="black"
+            ohos:text_size="30vp"/>
+
+        <Text
+            ohos:id="$+id:alert_dialog_message"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:padding="20vp"
+            ohos:text="确定要删除选中内容吗？"
+            ohos:text_alignment="top"
+            ohos:text_color="black"
+            ohos:text_size="20vp"
+            ohos:weight="1"/>
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:alignment="bottom|right"
+            ohos:orientation="horizontal"
+            >
+
+            <Button
+                ohos:id="$+id:alert_dialog_cancle"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:padding="20vp"
+                ohos:text="Cancle"
+                ohos:text_color="red"
+                ohos:text_size="20vp"/>
+
+            <Button
+                ohos:id="$+id:alert_dialog_ok"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:padding="20vp"
+                ohos:right_margin="10vp"
+                ohos:text="OK"
+                ohos:text_color="black"
+                ohos:text_size="20vp"/>
+        </DirectionalLayout>
+
+
+    </DirectionalLayout>
+
+</DirectionalLayout>

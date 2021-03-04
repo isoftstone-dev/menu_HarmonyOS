@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_content"
+    >
+    <ListContainer
+        ohos:id="$+id:menu_list"
+        ohos:height="300vp"
+        ohos:width="100vp"
+        ohos:background_element="$graphic:alert_background"
+        ohos:min_height="110vp"
+        ohos:min_width="100vp"
+        />
+
+
+</DependentLayout>

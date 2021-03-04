@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <Button
+        ohos:id="$+id:alert_button"
+        ohos:height="60vp"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:button_background"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="Alert Dialog"
+        ohos:text_size="50"
+        ohos:margin="10vp"
+        ohos:text_color="#ffffff"
+    />
+
+    <Button
+        ohos:id="$+id:input_button"
+        ohos:height="60vp"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:button_background"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="Input Dialog"
+        ohos:text_size="50"
+        ohos:margin="10vp"
+        ohos:text_color="#ffffff"
+        />
+
+    <Button
+        ohos:id="$+id:single_button"
+        ohos:height="60vp"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:button_background"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="Single Choose Dialog"
+        ohos:text_size="50"
+        ohos:margin="10vp"
+        ohos:text_color="#ffffff"
+        />
+
+    <Button
+        ohos:id="$+id:multi_button"
+        ohos:height="60vp"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:button_background"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="Multi Choose Dialog"
+        ohos:text_size="50"
+        ohos:margin="10vp"
+        ohos:text_color="#ffffff"
+        />
+
+</DirectionalLayout>

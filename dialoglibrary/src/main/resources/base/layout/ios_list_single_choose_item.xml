@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_parent"
+    ohos:orientation="vertical"
+    ohos:alignment="center">
+    <Text
+        ohos:id="$+id:ios_list_single_choose_list_item_tv"
+        ohos:height="50vp"
+        ohos:width="match_parent"
+        ohos:text_size="20vp"
+        ohos:left_padding="10vp"/>
+    <Component
+        ohos:height="0.5vp"
+        ohos:width="match_parent"
+        ohos:background_element="#e0e0e0"/>
+
+</DirectionalLayout>

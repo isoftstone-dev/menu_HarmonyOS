@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+    ohos:orientation="vertical"
+    >
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:alert_background"
+        ohos:left_margin="10vp"
+        ohos:orientation="vertical"
+        ohos:right_margin="10vp"
+        ohos:alignment="center"
+        >
+
+        <Text
+            ohos:id="$+id:ios_alert_dialog_title"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:padding="20vp"
+            ohos:text="Title"
+            ohos:text_color="black"
+            ohos:text_size="30vp"
+            ohos:text_weight="1000"
+            />
+
+        <Text
+            ohos:id="$+id:ios_alert_dialog_message"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:padding="15vp"
+            ohos:text="确定要删除选中内容吗？"
+            ohos:text_alignment="top"
+            ohos:text_color="black"
+            ohos:text_size="20vp"
+            ohos:weight="1"/>
+        <Component
+            ohos:height="0.5vp"
+            ohos:width="match_parent"
+            ohos:background_element="gray"
+            ohos:top_margin="20vp"/>
+
+        <DirectionalLayout
+            ohos:height="60vp"
+            ohos:width="match_parent"
+            ohos:alignment="bottom"
+            ohos:orientation="horizontal"
+            ohos:layout_alignment="vertical_center"
+            >
+            <Button
+                ohos:id="$+id:ios_alert_dialog_ok"
+                ohos:height="match_parent"
+                ohos:width="match_content"
+                ohos:text="sure"
+                ohos:text_color="#00BFFF"
+                ohos:text_size="20vp"
+                ohos:weight="1"/>
+            <Component
+                ohos:height="match_parent"
+                ohos:width="0.5vp"
+                ohos:background_element="gray"/>
+            <Button
+                ohos:id="$+id:ios_alert_dialog_cancle"
+                ohos:height="match_parent"
+                ohos:width="match_content"
+                ohos:text="cancle"
+                ohos:text_color="#00BFFF"
+                ohos:text_size="20vp"
+                ohos:weight="1"/>
+            <Component
+                ohos:height="match_parent"
+                ohos:width="0.5vp"
+                ohos:background_element="gray"/>
+
+            <Button
+                ohos:id="$+id:ios_alert_dialog_thinkabout"
+                ohos:height="match_parent"
+                ohos:width="match_content"
+                ohos:text="think about"
+                ohos:text_color="#00BFFF"
+                ohos:text_size="20vp"
+                ohos:weight="1"/>
+        </DirectionalLayout>
+
+    </DirectionalLayout>
+
+</DirectionalLayout>

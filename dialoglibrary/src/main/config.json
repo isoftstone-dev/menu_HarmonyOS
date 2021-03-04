@@ -1,0 +1,27 @@
+{
+  "app": {
+    "bundleName": "com.istone.harmony",
+    "vendor": "istone",
+    "version": {
+      "code": 1,
+      "name": "1.0"
+    },
+    "apiVersion": {
+      "compatible": 3,
+      "target": 4,
+      "releaseType": "Beta1"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "com.istone.dialoglibrary",
+    "deviceType": [
+      "phone"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "dialoglibrary",
+      "moduleType": "har"
+    }
+  }
+}

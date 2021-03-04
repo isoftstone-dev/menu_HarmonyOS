@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+    <ScrollView
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        >
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:orientation="vertical">
+
+    <Button
+        ohos:id="$+id:alert_button"
+        ohos:height="60vp"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:button_background"
+        ohos:layout_alignment="horizontal_center"
+        ohos:margin="10vp"
+        ohos:text="Alert Dialog"
+        ohos:text_color="#ffffff"
+        ohos:text_size="50"
+        />
+
+    <Button
+        ohos:id="$+id:input_button"
+        ohos:height="60vp"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:button_background"
+        ohos:layout_alignment="horizontal_center"
+        ohos:margin="10vp"
+        ohos:text="Input Dialog"
+        ohos:text_color="#ffffff"
+        ohos:text_size="50"
+        />
+
+    <Button
+        ohos:id="$+id:single_button"
+        ohos:height="60vp"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:button_background"
+        ohos:layout_alignment="horizontal_center"
+        ohos:margin="10vp"
+        ohos:text="Single Choose Dialog"
+        ohos:text_color="#ffffff"
+        ohos:text_size="50"
+        />
+
+    <Button
+        ohos:id="$+id:multi_button"
+        ohos:height="60vp"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:button_background"
+        ohos:layout_alignment="horizontal_center"
+        ohos:margin="10vp"
+        ohos:text="Multi Choose Dialog"
+        ohos:text_color="#ffffff"
+        ohos:text_size="50"
+        />
+
+    <Button
+        ohos:id="$+id:ios_alert_button"
+        ohos:height="60vp"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:button_background"
+        ohos:layout_alignment="horizontal_center"
+        ohos:margin="10vp"
+        ohos:text="IOS alert Dialog"
+        ohos:text_color="#ffffff"
+        ohos:text_size="50"
+        />
+
+    <Button
+        ohos:id="$+id:ios_alert_button_vertical"
+        ohos:height="60vp"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:button_background"
+        ohos:layout_alignment="horizontal_center"
+        ohos:margin="10vp"
+        ohos:text="IOS vertical alert Dialog"
+        ohos:text_color="#ffffff"
+        ohos:text_size="50"
+        />
+
+    <Button
+        ohos:id="$+id:two_input_button"
+        ohos:height="60vp"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:button_background"
+        ohos:layout_alignment="horizontal_center"
+        ohos:margin="10vp"
+        ohos:text="Two Input Dialog"
+        ohos:text_color="#ffffff"
+        ohos:text_size="50"
+        />
+
+    <Button
+        ohos:id="$+id:ios_single_choose_button"
+        ohos:height="60vp"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:button_background"
+        ohos:layout_alignment="horizontal_center"
+        ohos:margin="10vp"
+        ohos:text="IOS Single Choose Dialog"
+        ohos:text_color="#ffffff"
+        ohos:text_size="50"
+        />
+
+    <Button
+        ohos:id="$+id:ios_bottom_single_choose_button"
+        ohos:height="60vp"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:button_background"
+        ohos:layout_alignment="horizontal_center"
+        ohos:margin="10vp"
+        ohos:text="IOS Bottom Single Choose Dialog"
+        ohos:text_color="#ffffff"
+        ohos:text_size="50"
+        />
+
+        <Button
+            ohos:id="$+id:ios_bottom_list_button"
+            ohos:height="60vp"
+            ohos:width="match_parent"
+            ohos:background_element="$graphic:button_background"
+            ohos:layout_alignment="horizontal_center"
+            ohos:margin="10vp"
+            ohos:text="IOS Bottom List"
+            ohos:text_color="#ffffff"
+            ohos:text_size="50"
+            />
+
+        <Button
+            ohos:id="$+id:menu_single_button"
+            ohos:height="60vp"
+            ohos:width="match_parent"
+            ohos:background_element="$graphic:button_background"
+            ohos:layout_alignment="horizontal_center"
+            ohos:margin="10vp"
+            ohos:text="Menu single dialog"
+            ohos:text_color="#ffffff"
+            ohos:text_size="50"
+            />
+    </DirectionalLayout>
+    </ScrollView>
+
+
+</DirectionalLayout>

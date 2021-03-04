@@ -1,0 +1,13 @@
+{
+  "string":
+  [
+    {
+      "name": "app_name",
+      "value": "DialogApplication"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    }
+  ]
+}

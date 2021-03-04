@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+    <ListContainer
+        ohos:id="$+id:ios_single_choose_list"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:alert_background"
+        ohos:left_margin="20vp"
+        ohos:right_margin="20vp"/>
+    <Text
+        ohos:id="$+id:ios_bottom_single_choose_text"
+        ohos:height="50vp"
+        ohos:width="match_parent"
+        ohos:text="取消"
+        ohos:text_size="20vp"
+        ohos:text_color="#00BFFF"
+        ohos:visibility="invisible"
+        ohos:background_element="$graphic:alert_background"
+        ohos:text_alignment="center"
+        ohos:left_margin="20vp"
+        ohos:right_margin="20vp"/>
+
+</DirectionalLayout>

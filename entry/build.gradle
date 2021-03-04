@@ -1,0 +1,24 @@
+apply plugin: 'com.huawei.ohos.hap'
+ohos {
+    signingConfigs {
+        debug {
+            storeFile file('D:/keystore.p12')
+            storePassword '0000001C4C6E80D72C9F3BEAFDDCDBED3E4B830DC3A8DA5C58BFB46F9EFE75E7B98A4383376F2C84FFC770BD'
+            keyAlias 'keystore'
+            keyPassword '0000001C0C7EA389E022160FA68EBAD326A3565F16CF3B7D1033AC83B7C32FF618CF7AF706CA2048E69E071C'
+            signAlg 'SHA256withECDSA'
+            profile file('D:/ohosDebug.p7b')
+            certpath file('D:/keystore.cer')
+        }
+    }
+    compileSdkVersion 4
+    defaultConfig {
+        compatibleSdkVersion 4
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar', '*.har'])
+    testCompile'junit:junit:4.12'
+    compile project(path: ':dialoglibrary')
+}
